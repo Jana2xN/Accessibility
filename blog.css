@@ -1,0 +1,211 @@
+body, h1, h2, h3, p, ul, li, a {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+nav img {
+    height: 80%;
+    width: auto;
+    display: block;
+    float: left; 
+    margin-left: 40px;
+    margin-top: 5px;
+}
+
+nav {
+    background-color: #7398a8;
+    padding-right: 10px;
+    text-align: right;
+    height: 70px;
+}
+
+nav ul {
+    margin-right: 35px;
+    padding-top: 25px;
+}
+
+nav li {
+    display: inline;
+    margin: 5px;
+}
+
+nav a {
+    color: #fff;
+}
+
+header {
+    position: relative;
+    display: block;
+    justify-content: center;
+}
+
+.banner-image {
+    width: 100vw;
+    height: auto;
+    position: relative;
+} 
+
+.overlay-text {
+    color: #fff;
+    display: flex;
+    top: 20%;
+    left: 2%;
+    text-align: center;
+    justify-content: center;
+    position: absolute;
+} 
+
+.title {
+    text-align: center;
+    color: #333;
+    margin-top: 40px;
+}
+
+main {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.content-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.featured-hero {
+    width: 400px;
+    margin: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.featured-hero-photo img {
+    max-width: 100%;
+    height: auto;
+}
+
+.featured-hero-post-data {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.featured-hero-title {
+    padding-left: 10px;
+}
+
+.featured-hero-title a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.featured-hero-excerpt {
+    padding: 10px;
+}
+
+.read-more-button-scotland{
+    background-color: #0074d9;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 30px;
+    margin-left: 10px;
+    margin-top: 10px;
+
+}
+
+.read-more-button-scotland:hover {
+    background-color: #0056b3;
+}
+
+.article {
+    width: 400px;
+    margin: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.excerpt-photo img {
+    max-width: 100%;
+    height: auto;
+}
+
+.excerpt-title {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.excerpt-post-data {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.excerpt-excerpt {
+    padding-bottom: 20px;
+}
+
+.read-more-button-ireland {
+    background-color: #0074d9;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+
+.read-more-button-ireland:hover {
+    background-color: #0056b3;
+}
+
+
+h1 {
+    font-size: 30px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+h3 {
+    font-size: 18px;
+}
+
+p {
+    font-size: 16px;
+}
+
+ul {
+    font-size: 16px;
+}
+
+.contact {
+    background-color: #b2b9c7;
+}
+
+footer {
+    background-color: #b2b9c7;
+    color: #fff;
+    text-align: center;
+    padding-top: 30px;
+    height: 50px;
+    margin-top: 50px;
+}

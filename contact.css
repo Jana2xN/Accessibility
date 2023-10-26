@@ -1,0 +1,170 @@
+body, h1, h2, h3, p, ul, li, a {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+nav img {
+    height: 80%;
+    width: auto;
+    display: block;
+    float: left; 
+    margin-left: 40px;
+    margin-top: 5px;
+}
+
+nav {
+    background-color: #7398a8;
+    padding-right: 10px;
+    text-align: right;
+    height: 70px;
+}
+
+nav ul {
+    margin-right: 35px;
+    padding-top: 25px;
+}
+
+nav li {
+    display: inline;
+    margin: 5px;
+}
+
+nav a {
+    color: #fff;
+}
+
+header {
+    position: relative;
+    display: block;
+    justify-content: center;
+}
+
+.banner-image {
+    width: 100vw;
+    height: auto;
+    position: relative;
+} 
+
+.overlay-text {
+    color: #fff;
+    display: flex;
+    top: 20%;
+    left: 2%;
+    text-align: center;
+    justify-content: center;
+    position: absolute;
+} 
+
+.title {
+    text-align: center;
+    color: #333;
+    margin-top: 40px;
+}
+
+main {
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: 50px;
+
+}
+
+#contact-info {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border: 1px solid hsl(0, 0%, 80%);
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+#contact-form {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+    border: 1px solid #007BFF;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3; 
+}
+
+h1 {
+    font-size: 30px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+h3 {
+    font-size: 18px;
+}
+
+p {
+    font-size: 16px;
+}
+
+ul {
+    font-size: 16px;
+}
+
+.contact {
+    background-color: #b2b9c7;
+}
+
+footer {
+    background-color: #b2b9c7;
+    color: #fff;
+    text-align: center;
+    padding-top: 30px;
+    height: 50px;
+    margin-top: 50px;
+}
